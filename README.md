@@ -40,12 +40,18 @@ This will:
 4. Evaluate on test set
 5. Save `predictions.png` and `housing_model.pkl`
 
+
+That renders as:
+
 ## Project Structure
-├── train.py              # Training script
-├── requirements.txt      # Dependencies
-├── predictions.png       # Output visualization
-├── housing_model.pkl     # Saved model
-└── README.md            # This file
+
+```text
+├── train.py             # Training script
+├── requirements.txt     # Project dependencies
+├── predictions.png      # Output visualization
+├── housing_model.pkl    # Saved trained model
+└── README.md            # Project documentation
+```
 
 ## Key Learnings
 - Feature scaling (StandardScaler) improves performance
